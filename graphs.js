@@ -1,7 +1,7 @@
 'use strict';
 const BFS = require('./lib/BFSClass');
 
-let b = new BFS(10);
+let b = new BFS();
 console.log(b + '')
 let verts = b.getVerts();
 (verts || []).forEach((vert) => {
@@ -11,4 +11,4 @@ let verts = b.getVerts();
     }
   })
 })
-b.shortestPath('2', '5');
+// b.shortestPath('2', '5');
